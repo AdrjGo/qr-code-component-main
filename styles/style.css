@@ -32,6 +32,7 @@ footer {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px hsl(220, 15%, 55%);
 }
 .qr {
   width: 100%;
@@ -54,7 +55,7 @@ footer {
 }
 .card p {
   color: #7d889e;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
