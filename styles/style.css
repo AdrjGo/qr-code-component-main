@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Outfit";
+}
+body {
+  background-color: #d5e1ef;
+  position: relative;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ffff;
+  font-size: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.card {
+  background-color: #ffff;
+  width: 320px;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.qr {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.content {
+  width: auto;
+  text-align: center;
+  padding: 0 15px 0 15px;
+}
+.card h1 {
+  font-size: 22px;
+  color: #1f314f;
+  margin-bottom: 16px;
+}
+.card p {
+  color: #7d889e;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/*Responsive*/
+@media (width <= 375px) {
+  footer {
+    font-size: 10px;
+  }
+  .card {
+    width: 260px;
+  }
+  .card h1 {
+    font-size: 17px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+}
+@media (425px <= width <= 1024px) {
+  footer {
+    font-size: 10px;
+  }
+  .card {
+    width: 300px;
+  }
+  .card h1 {
+    font-size: 21px;
+  }
+  .card p {
+    font-size: 15px;
+  }
+}
